@@ -12,8 +12,8 @@ Kanti is a web application designed for Attack Surface Management (ASM). It help
 
 ## Prerequisites
 
-*   Go (version required by `go.mod`)
-*   Node.js and npm (versions compatible with `frontend/package.json`)
+*   Go 
+*   Node.js and npm
 
 ## Running the Application
 
@@ -70,20 +70,3 @@ go build -o kanti-backend main.go
 ```
 
 This command compiles the backend into an executable file named `kanti-backend`. You would then need to configure a production environment (database, etc.) and run the executable.
-
-## Project Structure
-
-*   `backend/`: Contains the Go API server code.
-    *   `main.go`: Entry point for the backend server.
-    *   `handlers/`: API route handlers.
-    *   `models/`: Database models/structs.
-    *   `database/`: Database connection and migration logic.
-    *   `scanner/`: Modules for performing scans (subdomains, technologies, etc.).
-    *   `config/`: Configuration loading.
-*   `frontend/`: Contains the SvelteKit UI code.
-    *   `src/`: Main source code directory.
-        *   `routes/`: Application pages and API routes.
-        *   `lib/`: Reusable components, stores, API client, types.
-    *   `static/`: Static assets.
-    *   `package.json`: Frontend dependencies and scripts.
-*   `data/`: (Likely location for runtime data, e.g., screenshots, based on `backend/main.go`) - *Note: This directory might be created at runtime.*
