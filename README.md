@@ -1,6 +1,6 @@
-# Kanti - Attack Surface Management Tool
+# KASM - Attack Surface Management Tool (formerly Kanti)
 
-Kanti is a web application designed for Attack Surface Management (ASM). It helps you discover, analyze, and manage your organization's digital assets.
+KASM is a web application designed for Attack Surface Management (ASM). It helps you discover, analyze, and manage your organization's digital assets.
 
 ## Technology Stack
 
